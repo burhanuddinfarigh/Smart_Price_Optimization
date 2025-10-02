@@ -8,8 +8,8 @@ If the price is too high → sales drop
 
 If the price is too low → sales rise but profits drop
 
-👉 This project builds a Machine Learning–based Smart Price Optimization system that finds the sweet spot:
-the price that maximizes revenue (and profit) while staying competitive.
+ This project builds a Machine Learning–based Smart Price Optimization system that finds the sweet spot:
+ the price that maximizes revenue (and profit) while staying competitive.
 
 We used XGBoost on historical sales data to predict demand at different prices and recommend the optimal one.
 
@@ -106,7 +106,7 @@ xgb_qty_model.joblib → trained XGBoost model
 
 feature_columns.pkl → feature column order for predictions
 
-✅ This means you can test recommendations without retraining.
+ This means you can test recommendations without retraining.
 
 **Load like this:**
 
@@ -137,7 +137,18 @@ Build interactive dashboard (Streamlit/Power BI) for managers
 
 Scale to real-time pricing system
 
- **Acknowledgements**
+### Power BI Dashboard
+The project includes an **interactive Power BI dashboard** for business users.  
+File: `dashboard/SmartPriceDashboard.pbix`  
+
+### Features:
+- Highlights **Profit Uplift %** and **Revenue Uplift %** with conditional formatting.  
+- Slicer by SKU to analyze products individually.  
+- Color-coded table (Red = losses, Yellow = moderate, Green = strong).  
+
+Note: Open with **Power BI Desktop** to explore the dashboard.
+
+**Acknowledgements**
 
 Dataset: UCI ML Repository – Online Retail II
 
