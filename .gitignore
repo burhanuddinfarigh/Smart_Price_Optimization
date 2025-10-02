@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual envs
+.env
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+data/*.csv
+data/*.xlsx
+
+# Models (keep ignored unless you want to push via Git LFS)
+models/*.joblib
+models/*.pkl
+
+# Reports
+reports/*.csv
