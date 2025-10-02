@@ -1,4 +1,4 @@
-** Smart Price Optimization**
+### Smart Price Optimization
 
 **Overview**
 
@@ -21,7 +21,7 @@ You can download the full datasets from here:
 - [Google Drive Link to Raw Data]- [(http://bit.ly/4gNZCAE)]
 - [Google Drive Link to Cleaned Data]- [(https://bit.ly/4gRcbLD)]
 
-###  Usage
+ **Usage**
 After downloading, place the files inside the `data/` folder:
 
 ### Features include:
@@ -40,15 +40,15 @@ Customer ID
 
 Country
 
-** Competitor Price Data**
+### Competitor Price Data
 
 This project includes a simulated competitor price dataset (data/competitor_price.csv) to demonstrate how external market signals can be integrated into the pricing model.
 
- File Location: data/competitor_price.csv
+File Location: data/competitor_price.csv
 
 Note: These competitor prices are synthetically generated (using random variations of our product prices) and do not represent real retailer data.
 
- Purpose: To show how the model could incorporate competitor prices in real-world deployments.
+Purpose: To show how the model could incorporate competitor prices in real-world deployments.
 
 In a real retail environment, competitor prices can be obtained via:
 
@@ -58,7 +58,7 @@ In a real retail environment, competitor prices can be obtained via:
 
 
 
-**Installation & Setup**
+### Installation & Setup
 
 1. Clone this repo
 git clone https://github.com/your-username/smart-price-optimization.git
