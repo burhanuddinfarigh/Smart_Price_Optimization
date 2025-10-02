@@ -16,12 +16,15 @@ We used XGBoost on historical sales data to predict demand at different prices a
 **Dataset**
 
 Dataset: Online Retail II (UCI ML Repository)
+###  Download Full Dataset
+You can download the full datasets from here:  
+- [Google Drive Link to Raw Data]- [(http://bit.ly/4gNZCAE)]
+- [Google Drive Link to Cleaned Data]- [(https://bit.ly/4gRcbLD)]
 
-Format: Excel → we provide a cleaned CSV in data/online_retail_ii_clean.csv
+###  Usage
+After downloading, place the files inside the `data/` folder:
 
-Raw file: also attached inside the data/ folder (online_retail_II.xlsx)
-
-Features include:
+### Features include:
 
 Product ID (StockCode)
 
