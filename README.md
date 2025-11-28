@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/burhanuddinfarigh/Smart_Price_Optimization/blob/main/Smart_price_optimization_banner.png" />
+</p>
+
 ### Smart Price Optimization
 
 **Overview**
